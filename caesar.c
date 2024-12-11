@@ -1,7 +1,5 @@
 //caesar.c
 //Drake Wheeler
-//CS333
-//Lab 2
 //10-10-2024
 //This program implements a caesar cipher, which encrypts or decrypts text by shifting characters. 
 //It reads from standard input and outputs the modified text to standard output. The shift value 
