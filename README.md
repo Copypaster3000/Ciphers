@@ -53,7 +53,9 @@ Decrypt a text file:
 
 Type text directly into the program:
 - Run the Caesar Cipher program:
+```bash
   ./caesar -e -s 5
+```
 - Type your text directly into the terminal.
 - Press 'Ctrl+D' (EOF in Unix) to signal the end of input. The transformed text will be output
   
