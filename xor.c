@@ -1,7 +1,5 @@
 //xor.c
 //Drake Wheeler
-//CS333
-//Lab 2
 //10-11-2024
 //This program encrpyts/decrypts files redricted into it buy xoring the data with the default key or a key string entered as a command line option argument.
 //Then it writes out the encrypted/decrytped data. 
