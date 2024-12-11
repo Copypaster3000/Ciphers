@@ -34,14 +34,6 @@ xor.o : xor.c
 debug: CFLAGS += -DNOISY_DEBUG
 debug: all
 
-#this fule handles the git commands. If a get repo doesnt exist, it creates one
-#it adds all .c, .h, and Makefile changes to the repo and commits with message
-#call with 'make git'
-git:
-	if [ ! -d .git] ; then git init; fi
-	git add *.[ch] ?akefile
-	git commit -m "lazy auto makefile git commit"
-
 #removes all compiled object files, executables, and editor temp files
 #call with 'make clean'
 clean cls:
