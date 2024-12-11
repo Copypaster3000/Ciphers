@@ -51,6 +51,12 @@ Decrypt a text file:
 ./caesar -d -s 5 < encrypted.txt > decrypted.txt
 ```
 
+Type text directly into the program:
+- Run the Caesar Cipher program:
+  ./caesar -e -s 5
+- Type your text directly into the terminal.
+- Press 'Ctrl+D' (EOF in Unix) to signal the end of input. The transformed text will be output
+  
 #### XOR Cipher
 Encrypt a file with a custom key:
 ```bash
