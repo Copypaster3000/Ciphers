@@ -58,6 +58,7 @@ int main(int argc, char* argv[])
 					NOISY_DEBUG_PRINT;
 					break;
 				case 's':
+				{
 					char* endptr;
 					//converts to base-10 int, if successuful endptr will point to '\0', 
 					//else it will point to first non-numeric character
@@ -78,6 +79,7 @@ int main(int argc, char* argv[])
 					}
 					NOISY_DEBUG_PRINT;
 					break;
+				}
 				default:
 					break;
 			}
