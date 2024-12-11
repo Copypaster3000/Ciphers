@@ -79,4 +79,4 @@ make clean
 ## Notes
 - The Caesar Cipher only processes printable ASCII characters; non-printing characters are ignored.
 - The XOR Cipher supports both text and binary data.
-- Ensure input redirection (`<`) and output redirection (`>`) are used as required.
+- Input redirection (`<`) and output redirection (`>`) are optional. To not use an input file, type text into the terminal after running the program and enter 'Ctrl+D' when done entering text.
